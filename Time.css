@@ -1,0 +1,114 @@
+*{
+  padding:0;
+  margin:0;
+}
+.header{
+  width: 375px;
+  height: 110px;
+  position: relative;
+  top: 0px;
+}
+.schedule{
+  padding: 5px;
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 35px;
+  color: dimgrey;
+  position: absolute;
+  top: 15px;
+}
+.sticky_table {
+  display: block;
+  position: relative;
+  overflow: scroll;
+  /* width: calc(100vw - 3.0rem);
+  height: calc(75vh); */
+  border-collapse: collapse;
+  font-size: 0;
+}
+.sticky_table thead,
+.sticky_table tbody {
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.sticky_table th,
+.sticky_table td {
+  padding: 5px;
+  font-family: fot-tsukuardgothic-std,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  /* display: inline-block; */
+  text-align: center;
+  width: 11.0rem;
+  font-size: 1.0rem;
+  border: gainsboro solid 2px;
+}
+.sticky_table tbody th {
+  position: sticky;
+  left: 0;
+  z-index: 3;
+}
+.sticky_table thead th.blank{
+  background-color: gainsboro;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+.sticky_table thead th.stage{
+  background-color: #ffd800;
+}
+.sticky_table thead th.food{
+  background-color: #00cc84;
+}
+.sticky_table thead th.amuse{
+  background-color: #009fbf;
+}
+.sticky_table thead th.gohan{
+  background-color: #d8ffb2;
+}
+.sticky_table thead th.yatai{
+  background-color: #b7ffff;
+}
+.sticky_table tbody th.q{
+  background-color: whitesmoke;
+}
+.sticky_table tbody th.j{
+
+  background-color: lemonchiffon;
+}
+.sticky_table tbody th.ji{
+
+  background-color: whitesmoke;
+}
+.sticky_table tbody th.jn{
+
+  background-color:  lemonchiffon;
+}
+.sticky_table tbody th.js{
+
+  background-color: whitesmoke;
+}
+.sticky_table tbody th.jyn{
+
+  background-color:  lemonchiffon;
+}
+.footerimg{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  z-index: 9;
+}
+.topimg{
+  position: fixed;
+  bottom: 7px;
+  right:10px;
+  z-index: 9;
+  -webkit-filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, .3));
+}
+.tixyousei{
+  width: 375px;
+  height: 67px;
+}

@@ -1,0 +1,311 @@
+*{
+  margin:0;
+  padding: 0;
+}
+/*タイトル関連　ここから*/
+.headerback{
+  width: 375px;
+  height: 667px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.genzai{
+  text-align: center;
+  position: relative;
+  top: -230px;
+}
+.conceptback{
+  width: 355px;
+  height: 200px;
+  background-color: white;
+  border-radius: 20px;
+  border: rgb(230, 230, 230) solid 10px;
+  position: absolute;
+  top: 10px;
+  text-align: center;
+}
+.Concept-Scroll{
+  display: inline-block;
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  position: relative;
+  top: 15px;
+}
+.text_nowstage{
+  font-size: 25px;
+}
+.kongo{
+  width: 200px;
+  height: 40px;
+  color: rgba(0, 0, 0, 0.8);
+  background-color: skyblue;
+  border: solid 10px skyblue;
+  box-shadow: 0 3px 0 gainsboro;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+  border-radius: 20px;
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+}
+.kongo:active{
+  position: relative;
+  top: 12px;
+  box-shadow: none;
+}
+.boxes{
+  width: 375px;
+  height: 1000px;
+  text-align: center;
+}
+/* .coming{
+  font-family: cholla-sans, sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 40px;
+  position: absolute;
+  top: 750px;
+  left: 70px;
+  color: black;
+  z-index: 8;
+} */
+.box1{
+  display: inline-block;
+  width: 345px;
+  height: 180px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  left: -8px;
+  border: solid 15px rgb(230, 230, 230);
+  /* border-left : solid 3px rgb(252, 164, 220);
+  border-top : solid 3px rgb(252, 164, 220);
+  border-bottom : solid 3px rgb(252, 164, 220); */
+  background-color : white;
+  border-radius: 30px;
+  z-index: 1;
+  /* opacity: 0.3; */
+}
+.mapimg{
+  position: absolute;
+  top: 65px;
+  left: 55px;
+  z-index: 2;
+  /* -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3)); */
+}
+.husenaka{
+  position: absolute;
+  top: 0px;
+  left: 180px;
+  z-index: 3;
+  opacity: 0.9;
+}
+.arrowimg1{
+  position: absolute;
+  top: 60px;
+  left: 248px;
+  z-index: 4;
+  -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3));
+}
+.arrowimg1:active{
+  -webkit-filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, .3));
+}
+
+.box2{
+  display: inline-block;
+  width: 330px;
+  height: 180px;
+  position: relative;
+  top: 10px;
+  left: -15px;
+  border: solid 15px rgb(230, 230, 230);
+  /* border-left : solid 3px rgb(252, 164, 220);
+  border-top : solid 3px rgb(252, 164, 220);
+  border-bottom : solid 3px rgb(252, 164, 220); */
+  background-color : white;
+  border-radius: 30px;
+  z-index: 1;
+}
+.stageimg{
+  position: absolute;
+  top: 65px;
+  left: 45px;
+  z-index: 2;
+  /* -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3)); */
+}
+.husenorange{
+  position: absolute;
+  top: 0px;
+  left: 180px;
+  z-index: 3;
+  opacity: 0.9;
+}
+.arrowimg2{
+  position: absolute;
+  top: 60px;
+  left: 248px;
+  z-index: 4;
+  -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3));
+}
+.arrowimg2:active{
+  -webkit-filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, .3));
+}
+
+.box3{
+  display: inline-block;
+  width: 330px;
+  height: 180px;
+  position: relative;
+  top: 10px;
+  left: -15px;
+  border: solid 15px rgb(230, 230, 230);
+  /* border-left : solid 3px rgb(252, 164, 220);
+  border-top : solid 3px rgb(252, 164, 220);
+  border-bottom : solid 3px rgb(252, 164, 220); */
+  background-color : white;
+  border-radius: 30px;
+  z-index: 1;
+}
+.foodimg{
+  position: absolute;
+  top: 70px;
+  left: 52px;
+  z-index: 2;
+  /* -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3)); */
+}
+.husenmidori{
+  position: absolute;
+  top: 0px;
+  left: 180px;
+  z-index: 3;
+  opacity: 0.9;
+}
+.arrowimg3{
+  position: absolute;
+  top: 60px;
+  left: 248px;
+  z-index: 4;
+  -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3));
+}
+.arrowimg3:active{
+  -webkit-filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, .3));
+}
+
+.box4{
+  display: inline-block;
+  width: 330px;
+  height: 180px;
+  position: relative;
+  top: 10px;
+  left: -15px;
+  border: solid 15px rgb(230, 230, 230);
+  /* border-left : solid 3px rgb(252, 164, 220);
+  border-top : solid 3px rgb(252, 164, 220);
+  border-bottom : solid 3px rgb(252, 164, 220); */
+  background-color : white;
+  border-radius: 30px;
+  z-index: 1;
+}
+.amuseimg{
+  position: absolute;
+  top: 68px;
+  left: 14px;
+  z-index: 2;
+  /* -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3)); */
+}
+.husenao{
+  position: absolute;
+  top: 0px;
+  left: 180px;
+  z-index: 3;
+  opacity: 0.9;
+}
+.arrowimg4{
+  position: absolute;
+  top: 60px;
+  left: 248px;
+  z-index: 4;
+  -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3));
+}
+.arrowimg4:active{
+  position: absolute;
+  top: 62px;
+  -webkit-filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, .3));
+}
+.soon{
+  font-family: cholla-sans, sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 40px;
+  position: absolute;
+  top: 1620px;
+  left: 70px;
+  color: black;
+  z-index: 8;
+}
+.box5{
+  opacity: 0.3;
+  display: inline-block;
+  width: 330px;
+  height: 180px;
+  position: relative;
+  text-align: center;
+  top: 10px;
+  left: -15px;
+  border: solid 15px rgb(230, 230, 230);
+  /* border-left : solid 3px rgb(252, 164, 220);
+  border-top : solid 3px rgb(252, 164, 220);
+  border-bottom : solid 3px rgb(252, 164, 220); */
+  background-color : white;
+  border-radius: 30px;
+  z-index: 1;
+}
+.realimg{
+  position: absolute;
+  top: 65px;
+  left: 25px;
+  z-index: 2;
+  /* -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3)); */
+}
+.gameimg{
+  position: absolute;
+  top: 95px;
+  left: 50px;
+  z-index: 2;
+  /* -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3)); */
+}
+.husenmurasaki{
+  position: absolute;
+  top: 0px;
+  left: 180px;
+  z-index: 3;
+}
+.arrowimg5{
+  position: absolute;
+  top: 60px;
+  left: 248px;
+  z-index: 4;
+  -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3));
+}
+.arrowimg5:active{
+  position: absolute;
+  top: 62px;
+  -webkit-filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, .3));
+}
+/* .tixyousetu{
+  width: 375px;
+  height: 100px;
+  background-color: rgb(230, 230, 230);
+} */
+.aofooter{
+  position: relative;
+  top: 130px;
+  width: 100%;
+  z-index: 9;
+}
+.topimg{
+  position: relative;
+  top: 55px;
+  left: 320px;
+  z-index: 9;
+  -webkit-filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, .3));
+}

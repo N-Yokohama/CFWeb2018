@@ -1,0 +1,272 @@
+*{
+  padding:0;
+  margin:0;
+}
+/*タイトル関連　ここから*/
+.headerback{
+  text-align: center;
+  position: relative;
+  top:-90px;
+}
+.back{
+  width: 375px;
+  height: 300px;
+  position: relative;
+  top: -190px;
+}
+.backimage{
+  text-align: center;
+  background-size: cover;
+  opacity: 0.6;
+  position: relative;
+  left: 0;
+}
+.aliceimage{
+  position: absolute;
+  top: 40px;
+  right: 80px;
+}
+.dayimage{
+  position: absolute;
+  top: 90px;
+  left: 170px;
+}
+.kaisaiimage{
+  position: absolute;
+  top: 155px;
+  left: 230px;
+}
+/*タイトル関連　ここまで*/
+/*現在何してるか関連　ここから*/
+.whitebox{
+  width: 370px;
+  height: 200px;
+  position: absolute;
+  top: 405px;
+  left: 0px;
+  background-color: white;
+}
+/* .scrollimg{
+  position: absolute;
+  top: 660px;
+  left: 150px;
+  z-index: 6;
+} */
+.center{
+
+}
+.Concept-Scroll{
+  position: absolute;
+  top: 400px;
+  left: 8px;
+}
+/*現在何してるか関連　ここまで*/
+/*各ボタンの要素まとめ　ここから*/
+.boxes{
+  width: 357px;
+  height: 200px;
+  margin-top: 0px;
+  left: 0px;
+  background-color: white;
+}
+/*マップボタン関連　ここから*/
+.husenbox1{
+  width: 330px;
+  height: 180px;
+  position: absolute;
+  top: 770px;
+  left: 20px;
+  border-left : solid 3px rgb(252, 164, 220);
+  border-top : solid 3px rgb(252, 164, 220);
+  border-bottom : solid 3px rgb(252, 164, 220);
+  background-color : white;
+  border-radius: 20px;
+  z-index: 1;
+}
+.mapimg{
+  position: absolute;
+  top: 836px;
+  left: 65px;
+  z-index: 2;
+  /* -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3)); */
+}
+.husenaka{
+  position: absolute;
+  top: 770px;
+  left: 180px;
+  z-index: 3;
+  opacity: 0.9;
+}
+.arrowimg1{
+  position: absolute;
+  top: 830px;
+  left: 248px;
+  z-index: 4;
+  -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3));
+}
+.arrowimg1:active{
+  -webkit-filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, .3));
+}
+/*マップボタン関連　ここまで*/
+/*ステージボタン関連　ここから*/
+.husenbox2{
+  width: 330px;
+  height: 180px;
+  position: absolute;
+  top: 1000px;
+  left: 20px;
+  border-left : solid 3px rgb(252, 228, 164);
+  border-top : solid 3px rgb(252, 228, 164);
+  border-bottom : solid 3px rgb(252, 228, 164);
+  background-color : white;
+  border-radius: 20px;
+  z-index: 1;
+}
+.husenorange{
+  position: absolute;
+  top: 1000px;
+  left: 180px;
+  z-index: 3;
+  opacity: 0.9;
+}
+.stageimg{
+  position: absolute;
+  top:  1070px;
+  left: 55px;
+  z-index: 2;
+  /* -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3)); */
+}
+.arrowimg2{
+  position: absolute;
+  top: 1065px;
+  left: 248px;
+  z-index: 4;
+  -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3));
+}
+.arrowimg2:active{
+  -webkit-filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, .3));
+}
+/*ステージボタン関連　ここまで*/
+/*フードボタン関連　ここから*/
+.husenbox3{
+  width: 330px;
+  height: 180px;
+  position: absolute;
+  top: 1230px;
+  left: 20px;
+  border-left : solid 3px rgb(136, 211, 117);
+  border-top : solid 3px rgb(136, 211, 117);
+  border-bottom : solid 3px rgb(136, 211, 117);
+  background-color : white;
+  border-radius: 20px;
+  z-index: 1;
+}
+.husenmidori{
+  position: absolute;
+  top: 1230px;
+  left: 180px;
+  z-index: 3;
+  opacity: 0.9;
+}
+.foodimg{
+  position: absolute;
+  top:  1305px;
+  left: 60px;
+  z-index: 2;
+  /* -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3)); */
+}
+.arrowimg3{
+  position: absolute;
+  top: 1297px;
+  left: 248px;
+  z-index: 4;
+  -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3));
+}
+.arrowimg3:active{
+  -webkit-filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, .3));
+}
+/*フードボタン関連　ここまで*/
+/*アミューズメントボタン関連　ここから*/
+.husenbox4{
+  width: 330px;
+  height: 180px;
+  position: absolute;
+  top: 1460px;
+  left: 20px;
+  border-left : solid 3px rgb(103, 158, 221);
+  border-top : solid 3px rgb(103, 158, 221);
+  border-bottom : solid 3px rgb(103, 158, 221);
+  background-color : white;
+  border-radius: 20px;
+  z-index: 1;
+}
+.husenao{
+  position: absolute;
+  top: 1460px;
+  left: 180px;
+  z-index: 3;
+  opacity: 0.9;
+}
+.amuseimg{
+  position: absolute;
+  top:  1539px;
+  left: 42px;
+  z-index: 2;
+  /* -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3)); */
+}
+.arrowimg4{
+  position: absolute;
+  top: 1527px;
+  left: 248px;
+  z-index: 4;
+  -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3));
+}
+.arrowimg4:active{
+  -webkit-filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, .3));
+}
+/*アミューズメントボタン関連　ここまで*/
+/*脱出ゲームボタン関連　ここから*/
+.husenbox5{
+  width: 330px;
+  height: 180px;
+  position: absolute;
+  top: 1690px;
+  left: 20px;
+  border-left : solid 3px rgb(113, 69, 185);
+  border-top : solid 3px rgb(113, 69, 185);
+  border-bottom : solid 3px rgb(113, 69, 185);
+  background-color : white;
+  border-radius: 20px;
+  z-index: 1;
+}
+.husenmurasaki{
+  position: absolute;
+  top: 1690px;
+  left: 180px;
+  z-index: 3;
+  opacity: 0.9;
+}
+.realimg{
+  position: absolute;
+  top:  1757px;
+  left: 40px;
+  z-index: 2;
+  /* -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3)); */
+}
+.gameimg{
+  position: absolute;
+  top:  1787px;
+  left: 65px;
+  z-index: 2;
+  /* -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3)); */
+}
+.arrowimg5{
+  position: absolute;
+  top: 1757px;
+  left: 248px;
+  z-index: 4;
+  -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .3));
+}
+.arrowimg5:active{
+  -webkit-filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, .3));
+}

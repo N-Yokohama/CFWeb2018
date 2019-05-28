@@ -1,0 +1,488 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  height: 1450px;
+}
+/*背景色ここから*/
+.foodback{
+  width: 375px;
+  height: 1750px;
+  position: absolute;
+  top: 0px;
+  background-color: whitesmoke;
+  z-index: -1;
+}
+/*背景色ここまで*/
+/*ヘッダーここから*/
+.foodheader{
+  width: 375px;
+  height: 115px;
+  position: relative;
+  top: 0px;
+}
+.midorirabel{
+  display: block;
+  position: absolute;
+  top: -35px;
+  z-index: 1;
+}
+.food{
+  font-family: cholla-sans, sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  color: white;
+  font-size: 50px;
+  z-index: 2;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+/*ヘッダーここまで*/
+/*輪投げここから*/
+.yakisobabox{
+  text-align: center;
+  width: 375px;
+  height: 300px;
+  position: relative;
+  top: 25px;
+}
+.yakisoba{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 40px;
+  color: #333333;
+  position: relative;
+  top: 98px;
+  z-index: 6;
+}
+.yakisobakakaku{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 30px;
+  color: #333333;
+  position: relative;
+  top: 80px;
+  z-index: 4;
+}
+.yakisobaimg{
+  position: relative;
+  top: -134px;
+  text-align: center;
+  display: inline-block;
+  z-index: 5;
+}
+.yakisobaback{
+  width: 300px;
+  height: 220px;
+  display: inline-block;
+  position: relative;
+  top: -190px;
+  background-color: white;
+  border: 3px solid gainsboro;
+  border-radius: 20px;
+  z-index:2;
+}
+.yakisobamaru{
+  width: 110px;
+  height: 110px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -480px;
+  border-radius: 100px;
+  border: 3px solid gainsboro;
+  background-color: white;
+  z-index: 3;
+}
+.yakisobabotan{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  color: #333333;
+  width: 130px;
+  height: 40px;
+  background-color: greenyellow;
+  display: block;
+  margin: auto;
+  line-height: 40px;
+  position: relative;
+  top: -370px;
+  z-index: 6;
+  opacity: 0.8;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0 3px 0 gainsboro;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+.yakisobabotan:active{
+  position: relative;
+  top: -368px;
+  box-shadow: none;
+}
+.modal-yakisoba-mozi{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+}
+.gixyouzabox{
+  width: 375px;
+  height: 300px;
+  text-align: center;
+  position: relative;
+  top: 14px;
+}
+.gixyouza{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 40px;
+  color: #333333;
+  position: relative;
+  top: 110px;
+  z-index: 6;
+}
+.gixyouzaimg{
+  position: relative;
+  top: -131px;
+  text-align: center;
+  display: inline-block;
+  z-index: 5;
+}
+.gixyouzamaru{
+  width: 110px;
+  height: 110px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -480px;
+  border-radius: 100px;
+  border: 3px solid gainsboro;
+  background-color: white;
+  z-index: 3;
+}
+.gixyouzaback{
+  width: 300px;
+  height: 220px;
+  display: inline-block;
+  position: relative;
+  top: -190px;
+  background-color: white;
+  border: 3px solid gainsboro;
+  border-radius: 20px;
+  z-index:2;
+}
+.gixyouzakakaku{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 30px;
+  color: #333333;
+  position: relative;
+  top: 95px;
+  z-index: 4;
+}
+.gixyouzabotan{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  color: #333333;
+  width: 130px;
+  height: 40px;
+  background-color: greenyellow;
+  display: block;
+  margin: auto;
+  line-height: 40px;
+  position: relative;
+  top: -370px;
+  z-index: 6;
+  opacity: 0.8;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0 3px 0 gainsboro;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+.gixyouzabotan:active{
+  position: relative;
+  top: -368px;
+  box-shadow: none;
+}
+.modal-gixyouza-mozi{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+}
+.hurankuhurutobox{
+  width: 375px;
+  height: 300px;
+  text-align: center;
+  position: relative;
+  top: 53px;
+}
+.hurankuhuruto{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 40px;
+  color: #333333;
+  position: relative;
+  top: 65px;
+  z-index: 6;
+}
+.hurankuhurutokakaku{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 30px;
+  color: #333333;
+  position: relative;
+  top: 48px;
+  z-index: 4;
+}
+.hurankuhurutoimg{
+  position: relative;
+  top: -148px;
+  left: 3px;
+  text-align: center;
+  display: inline-block;
+  z-index: 5;
+}
+.hurankuhurutomaru{
+  width: 110px;
+  height: 110px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -480px;
+  border-radius: 100px;
+  border: 3px solid gainsboro;
+  background-color: white;
+  z-index: 3;
+}
+.hurankuhurutoback{
+  width: 300px;
+  height: 220px;
+  display: inline-block;
+  position: relative;
+  top: -190px;
+  background-color: white;
+  border: 3px solid gainsboro;
+  border-radius: 20px;
+  z-index:2;
+}
+.hurankuhurutobotan{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  color: #333333;
+  width: 130px;
+  height: 40px;
+  background-color: greenyellow;
+  display: block;
+  margin: auto;
+  line-height: 40px;
+  position: relative;
+  top: -370px;
+  z-index: 6;
+  opacity: 0.8;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0 3px 0 gainsboro;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+.hurankuhurutobotan:active{
+  position: relative;
+  top: -368px;
+  box-shadow: none;
+}
+.modal-hurankuhuruto-mozi{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+}
+.popko-nbox{
+  width: 375px;
+  height: 0px;
+  text-align: center;
+  position: relative;
+  top: 22px;
+}
+.popko-n{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 35px;
+  color: #333333;
+  position: relative;
+  top: 105px;
+  z-index: 6;
+}
+.popko-nimg{
+  position: relative;
+  top: -130px;
+  left: 0px;
+  text-align: center;
+  display: inline-block;
+  z-index: 5;
+}
+.popko-nmaru{
+  width: 110px;
+  height: 110px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -240px;
+  border-radius: 100px;
+  border: 3px solid gainsboro;
+  background-color: white;
+  z-index: 3;
+}
+.popko-nback{
+  width: 300px;
+  height: 220px;
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  left: 35px;
+  background-color: white;
+  border: 3px solid gainsboro;
+  border-radius: 20px;
+  z-index:2;
+}
+.popko-nkakaku{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 30px;
+  color: #333333;
+  position: relative;
+  top: 90px;
+  z-index: 4;
+}
+.popko-nbotan{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  color: #333333;
+  width: 130px;
+  height: 40px;
+  background-color: greenyellow;
+  display: block;
+  margin: auto;
+  line-height: 40px;
+  position: absolute;;
+  top: 222px;
+  left: 123px;
+  z-index: 6;
+  opacity: 0.8;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0 3px 0 gainsboro;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+.popko-nbotan:active{
+  position: absolute;
+  top: 224px;
+  box-shadow: none;
+}
+.modal-popko-n-mozi{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+}
+.allbox{
+  width: 375px;
+  height: 0px;
+  text-align: center;
+  position: relative;
+  top: 340px;
+}
+.all{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 35px;
+  color: #333333;
+  position: relative;
+  top: 90px;
+  z-index: 6;
+}
+.allimg{
+  position: relative;
+  top: -130px;
+  left: 0px;
+  text-align: center;
+  display: inline-block;
+  z-index: 5;
+}
+.allmaru{
+  width: 110px;
+  height: 110px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -240px;
+  border-radius: 100px;
+  border: 3px solid gainsboro;
+  background-color: white;
+  z-index: 3;
+}
+.allback{
+  width: 300px;
+  height: 220px;
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  left: 35px;
+  background-color: white;
+  border: 3px solid gainsboro;
+  border-radius: 20px;
+  z-index:2;
+}
+.allkakaku{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 25px;
+  color: #333333;
+  position: relative;
+  top: 90px;
+  z-index: 4;
+}
+.allbotan{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  color: #333333;
+  width: 130px;
+  height: 40px;
+  background-color: greenyellow;
+  display: block;
+  margin: auto;
+  line-height: 40px;
+  position: absolute;;
+  top: 222px;
+  left: 123px;
+  z-index: 6;
+  opacity: 0.8;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0 3px 0 gainsboro;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+.allbotan:active{
+  position: absolute;
+  top: 224px;
+  box-shadow: none;
+}
+.modal-all-mozi{
+  font-family: fot-tsukubrdgothic-std, sans-serif; font-weight: 700; font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+}
+.midorifooter{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  z-index: 9;
+}
+.topimg{
+  position: fixed;
+  bottom: 7px;
+  right:10px;
+  z-index: 9;
+  -webkit-filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, .3));
+}
+.tixyousei{
+  width: 100%;
+  height: 700px;
+}
